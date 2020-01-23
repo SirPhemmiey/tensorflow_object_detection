@@ -1,0 +1,13 @@
+models/
+workspace/training_demo/image_frames
+workspace/training_demo/image_frames_
+workspace/training_demo/images_copy
+workspace/training_demo/images/
+workspace/training_demo/video_output
+video_output.avi
+workspace/training_demo/annotations
+workspace/training_demo/training
+workspace/training_demo/trained-inference-graphs
+workspace/training_demo/data.csv
+workspace/training_demo/data_.csv
+addons/labelImg/
