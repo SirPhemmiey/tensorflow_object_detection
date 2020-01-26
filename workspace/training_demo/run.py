@@ -32,9 +32,9 @@ if os.path.isfile(FILE_OUTPUT):
 # Playing video from file
 cap = cv2.VideoCapture('/Users/akindeoluwafemi/Downloads/051.mp4')
 
-# cap = cv2.VideoCapture('/Users/akindeoluwafemi/Downloads/051(online-video-cutter.com).mp4')
+# cap = cv2.VideoCapture('/Users/akindeoluwafemi/Downloads/051().mp4')
 
-# cap = cv2.VideoCapture('/Users/akindeoluwafemi/Downloads/051_(online-video-cutter.com).mp4')
+# cap = cv2.VideoCapture('/Users/akindeoluwafemi/Downloads/051_().mp4')
 
 
 def inf(cap, detection_graph, PATH_TO_CKPT, PATH_TO_LABELS, NUM_CLASSES): 
@@ -190,11 +190,6 @@ def inf(cap, detection_graph, PATH_TO_CKPT, PATH_TO_LABELS, NUM_CLASSES):
                 cap.release()
                 cv2.destroyAllWindows()
                 return output_dict_array
-def keyfunc(x):
-    return x['prediction']
-
-def sort_uniq(sequence):
-    return (x[0] for x in itertools.groupby(sorted(sequence)))
 
 def pipeline(cap) :
     
